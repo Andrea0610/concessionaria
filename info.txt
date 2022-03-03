@@ -1,0 +1,43 @@
+Tabella auto
+id
+id_marca
+id_modello
+prezzo_vendita
+prezzo_acquisto NULL
+cilindrata NOT NULL
+motorizzazione NOT NULL
+potenza_cv NOT NULL
+allestimento NULL
+km_percorsi NULL
+immatricolazione (mm/aaaa) NON NULL
+colore NULL
+porte NULL
+posti_sedere NULL
+tipo_cambio NULL
+marce NULL
+descrizione NULL
+num_proprietari
+prossima_revisione
+
+Tabella foto_auto
+id_auto
+img
+
+Tabella marca
+id
+marca
+
+Tabella modelli
+id
+id_marca
+modello
+
+Tabella motorizzazione
+id
+motorizzazione
+
+Tabella optional
+id
+optional
+
+
